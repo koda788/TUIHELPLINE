@@ -1,0 +1,14 @@
+# Environment secret variables
+.env
+
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# JSON local databases (optional - keep untracked so git doesn't overwrite runtime state)
+snippets.json
+banned_users.json
+subscribers.json
